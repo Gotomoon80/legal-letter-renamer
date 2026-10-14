@@ -1,0 +1,677 @@
+2026-10-13 11:58:46 [INFO] BatchDocRenamer: ============================================================
+2026-10-13 11:58:46 [INFO] BatchDocRenamer: 批量文档重命名助手 v1.0.0 启动
+2026-10-13 11:58:46 [INFO] BatchDocRenamer: 日志文件: <项目根目录>\logs\app_20261013.log
+2026-10-13 11:58:47 [INFO] BatchDocRenamer.roster: 名单解析：识别姓名列=1（表头=['序号', '姓名', '备注']），数据行=4
+2026-10-13 11:58:47 [INFO] BatchDocRenamer.roster: 名单加载完成，共 4 条
+2026-10-13 11:58:47 [INFO] BatchDocRenamer.scanner: 扫描目录 <临时目录>：命中 7 个文件（类型=['.csv', '.doc', '.docm', '.docx', '.dot', '.dotx', '.rtf', '.xls', '.xlsb', '.xlsm', '.xlsx']，递归=False）
+2026-10-13 11:58:47 [INFO] BatchDocRenamer.matcher: 姓名匹配完成：已匹配 4 / 未匹配 3 / 名单使用 4
+2026-10-13 11:58:47 [INFO] BatchDocRenamer.report: 对照表已导出：<临时目录>\对照表.xlsx（共 7 行）
+2026-10-13 11:58:47 [INFO] BatchDocRenamer.renamer: 重命名成功：002_李四_律师函.docx -> 0001_李四_律师函.docx
+2026-10-13 11:58:47 [INFO] BatchDocRenamer.renamer: 重命名成功：《②致张三律师函》.docx -> 0004_张三_律师函.docx
+2026-10-13 11:58:47 [INFO] BatchDocRenamer.renamer: 重命名成功：账单-王五.xlsx -> 0006_王五_律师函.xlsx
+2026-10-13 11:58:47 [INFO] BatchDocRenamer.renamer: 重命名成功：赵六账单.xlsx -> 0007_赵六_律师函.xlsx
+2026-10-13 11:58:47 [INFO] BatchDocRenamer.renamer: 本次成功 4 个，失败 0 个，撤销记录：<项目根目录>\logs\undo_20261013_115847.json
+2026-10-13 11:58:47 [INFO] BatchDocRenamer.renamer: 开始撤销，共 4 条，来源 <项目根目录>\logs\undo_20261013_115847.json
+2026-10-13 11:58:47 [INFO] BatchDocRenamer.renamer: 撤销完成：成功 4，失败 0
+2026-10-13 12:01:05 [INFO] BatchDocRenamer: ============================================================
+2026-10-13 12:01:05 [INFO] BatchDocRenamer: 批量文档重命名助手 v1.0.0 启动
+2026-10-13 12:01:05 [INFO] BatchDocRenamer: 日志文件: <项目根目录>\logs\app_20261013.log
+2026-10-13 12:01:05 [INFO] BatchDocRenamer.roster: 名单解析：识别姓名列=1（表头=['序号', '姓名', '备注']），数据行=4
+2026-10-13 12:01:05 [INFO] BatchDocRenamer.roster: 名单加载完成，共 4 条
+2026-10-13 12:01:05 [INFO] BatchDocRenamer.scanner: 扫描目录 <临时目录>：命中 7 个文件（类型=['.csv', '.doc', '.docm', '.docx', '.dot', '.dotx', '.rtf', '.xls', '.xlsb', '.xlsm', '.xlsx']，递归=False，排除=0）
+2026-10-13 12:01:05 [INFO] BatchDocRenamer.matcher: 姓名匹配完成：已匹配 4 / 未匹配 3 / 名单使用 4
+2026-10-13 12:01:05 [INFO] BatchDocRenamer.report: 对照表已导出：<临时目录>\对照表.xlsx（共 7 行）
+2026-10-13 12:01:05 [INFO] BatchDocRenamer.renamer: 重命名成功：《②致张三律师函》.docx -> 0001_张三_律师函.docx
+2026-10-13 12:01:05 [INFO] BatchDocRenamer.renamer: 重命名成功：002_李四_律师函.docx -> 0002_李四_律师函.docx
+2026-10-13 12:01:05 [INFO] BatchDocRenamer.renamer: 重命名成功：账单-王五.xlsx -> 0003_王五_律师函.xlsx
+2026-10-13 12:01:05 [INFO] BatchDocRenamer.renamer: 重命名成功：赵六账单.xlsx -> 0004_赵六_律师函.xlsx
+2026-10-13 12:01:05 [INFO] BatchDocRenamer.renamer: 本次成功 4 个，失败 0 个，撤销记录：<项目根目录>\logs\undo_20261013_120105.json
+2026-10-13 12:01:05 [INFO] BatchDocRenamer.renamer: 开始撤销，共 4 条，来源 <项目根目录>\logs\undo_20261013_120105.json
+2026-10-13 12:01:05 [INFO] BatchDocRenamer.renamer: 撤销完成：成功 4，失败 0
+2026-10-13 12:01:14 [INFO] BatchDocRenamer: ============================================================
+2026-10-13 12:01:14 [INFO] BatchDocRenamer: 批量文档重命名助手 v1.0.0 启动
+2026-10-13 12:01:14 [INFO] BatchDocRenamer: 日志文件: <项目根目录>\logs\app_20261013.log
+2026-10-13 12:01:15 [INFO] BatchDocRenamer.roster: 名单解析：识别姓名列=1（表头=['序号', '姓名', '备注']），数据行=4
+2026-10-13 12:01:15 [INFO] BatchDocRenamer.roster: 名单加载完成，共 4 条
+2026-10-13 12:01:15 [INFO] BatchDocRenamer.scanner: 扫描目录 <临时目录>：命中 7 个文件（类型=['.csv', '.doc', '.docm', '.docx', '.dot', '.dotx', '.rtf', '.xls', '.xlsb', '.xlsm', '.xlsx']，递归=False，排除=0）
+2026-10-13 12:01:15 [INFO] BatchDocRenamer.matcher: 姓名匹配完成：已匹配 4 / 未匹配 3 / 名单使用 4
+2026-10-13 12:01:15 [INFO] BatchDocRenamer.report: 对照表已导出：<临时目录>\对照表.xlsx（共 7 行）
+2026-10-13 12:01:15 [INFO] BatchDocRenamer.renamer: 重命名成功：《②致张三律师函》.docx -> 0001_张三_律师函.docx
+2026-10-13 12:01:15 [INFO] BatchDocRenamer.renamer: 重命名成功：002_李四_律师函.docx -> 0002_李四_律师函.docx
+2026-10-13 12:01:15 [INFO] BatchDocRenamer.renamer: 重命名成功：账单-王五.xlsx -> 0003_王五_律师函.xlsx
+2026-10-13 12:01:15 [INFO] BatchDocRenamer.renamer: 重命名成功：赵六账单.xlsx -> 0004_赵六_律师函.xlsx
+2026-10-13 12:01:15 [INFO] BatchDocRenamer.renamer: 本次成功 4 个，失败 0 个，撤销记录：<项目根目录>\logs\undo_20261013_120115.json
+2026-10-13 12:01:15 [INFO] BatchDocRenamer.renamer: 开始撤销，共 4 条，来源 <项目根目录>\logs\undo_20261013_120115.json
+2026-10-13 12:01:15 [INFO] BatchDocRenamer.renamer: 撤销完成：成功 4，失败 0
+2026-10-13 12:01:29 [INFO] BatchDocRenamer: ============================================================
+2026-10-13 12:01:29 [INFO] BatchDocRenamer: 批量文档重命名助手 v1.0.0 启动
+2026-10-13 12:01:29 [INFO] BatchDocRenamer: 日志文件: <项目根目录>\logs\app_20261013.log
+2026-10-13 12:01:43 [INFO] BatchDocRenamer: ============================================================
+2026-10-13 12:01:43 [INFO] BatchDocRenamer: 批量文档重命名助手 v1.0.0 启动
+2026-10-13 12:01:43 [INFO] BatchDocRenamer: 日志文件: <项目根目录>\logs\app_20261013.log
+2026-10-13 12:08:00 [INFO] BatchDocRenamer: ============================================================
+2026-10-13 12:08:00 [INFO] BatchDocRenamer: 批量文档重命名助手 v1.0.0 启动
+2026-10-13 12:08:00 [INFO] BatchDocRenamer: 日志文件: <项目根目录>\logs\app_20261013.log
+2026-10-13 12:08:00 [INFO] BatchDocRenamer.scanner: 扫描目录 <临时目录>2：命中 5 个文件（类型=['.csv', '.doc', '.docm', '.docx', '.dot', '.dotx', '.rtf', '.xls', '.xlsb', '.xlsm', '.xlsx']，递归=False，排除=0）
+2026-10-13 12:08:00 [INFO] BatchDocRenamer.matcher: 姓名匹配完成：已匹配 4 / 未匹配 1 / 名单使用 4
+2026-10-13 12:08:00 [INFO] BatchDocRenamer.renamer: 重命名成功：《②致张三律师函》.docx -> 0001_张三_律师函.docx
+2026-10-13 12:08:00 [INFO] BatchDocRenamer.renamer: 重命名成功：002_李四_律师函.docx -> 0002_李四_律师函.docx
+2026-10-13 12:08:00 [INFO] BatchDocRenamer.renamer: 重命名成功：账单-王五.xlsx -> 0003_王五_律师函.xlsx
+2026-10-13 12:08:00 [INFO] BatchDocRenamer.renamer: 重命名成功：赵六账单.xlsx -> 0004_赵六_律师函.xlsx
+2026-10-13 12:08:00 [INFO] BatchDocRenamer.renamer: 本次成功 4 个，失败 0 个，撤销记录：<项目根目录>\logs\undo_20261013_120800.json
+2026-10-13 12:08:01 [INFO] BatchDocRenamer.renamer: 开始撤销，共 4 条，来源 <项目根目录>\logs\undo_20261013_120800.json
+2026-10-13 12:08:01 [INFO] BatchDocRenamer.renamer: 撤销完成：成功 4，失败 0
+2026-10-13 12:15:09 [INFO] BatchDocRenamer: ============================================================
+2026-10-13 12:15:09 [INFO] BatchDocRenamer: 批量文档重命名助手 v1.0.1 启动
+2026-10-13 12:15:09 [INFO] BatchDocRenamer: 日志文件: <项目根目录>\logs\app_20261013.log
+2026-10-13 12:15:10 [INFO] BatchDocRenamer.roster: 名单解析：识别姓名列=1（表头=['序号', '姓名', '备注']），数据行=99
+2026-10-13 12:15:10 [INFO] BatchDocRenamer.roster: 名单加载完成，共 99 条
+2026-10-13 12:15:11 [INFO] BatchDocRenamer.scanner: 扫描目录 <项目根目录>\测试数据集_99份：命中 99 个文件（类型=['.doc', '.docm', '.docx', '.dot', '.dotx', '.rtf']，递归=False，排除=1）
+2026-10-13 12:15:11 [INFO] BatchDocRenamer.api: 内容识别：99/99 个文件提取到姓名候选
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.matcher: 姓名匹配完成：已匹配 99 / 未匹配 0 / 名单使用 99
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-1-修订版.docx -> 《①致张三的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-2-修订版.docx -> 《②致李四的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：00000003.docx -> 《③致王五的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0004.docx -> 《④致赵六的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-5-修订版.docx -> 《⑤致孙七的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(6).docx -> 《⑥致周八的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档7.docx -> 《⑦致吴九的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0008.docx -> 《⑧致郑十的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-9-修订版.docx -> 《⑨致赵伟的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0010.docx -> 《⑩致钱涛的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-11-修订版.docx -> 《⑪致孙斌的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20249447764584.docx -> 《⑫致李飞的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：未命名13.docx -> 《⑬致周艳的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档14.docx -> 《⑭致吴雪的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-15-修订版.docx -> 《⑮致郑洁的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：temp_16_final.docx -> 《⑯致王磊的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：00000017.docx -> 《⑰致冯超的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20237000389433.docx -> 《⑱致陈波的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20227912014613.docx -> 《⑲致褚敏的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20214684855375.docx -> 《⑳致卫秀兰的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：新建 Microsoft Word 文档 (21).docx -> 《㉑致蒋梅的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：未命名22.docx -> 《㉒致沈慧的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档23.docx -> 《㉓致韩洋的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(24).docx -> 《㉔致杨辉的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0025.docx -> 《㉕致朱凯的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：未命名26.docx -> 《㉖致秦丽的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(27).docx -> 《㉗致尤燕的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(28).docx -> 《㉘致许红的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档29.docx -> 《㉙致何伟的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档30.docx -> 《㉚致吕涛的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20208624921871.docx -> 《㉛致施斌的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：新建 Microsoft Word 文档 (32).docx -> 《㉜致张飞的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档33.docx -> 《㉝致孔艳的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00034.docx -> 《㉞致曹雪的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：未命名35.docx -> 《㉟致严洁的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：00000036.docx -> 《㊱致华磊的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：未命名37.docx -> 《㊲致金超的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0038.docx -> 《㊳致魏波的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00039.docx -> 《㊴致陶敏的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(40).docx -> 《㊵致姜秀兰的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档41.docx -> 《㊶致戚梅的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20207657779723.docx -> 《㊷致谢慧的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00043.docx -> 《㊸致邹洋的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：temp_44_final.docx -> 《㊹致喻辉的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20247124969547.docx -> 《㊺致柏凯的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-46-修订版.docx -> 《㊻致水丽的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00047.docx -> 《㊼致窦燕的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20227948775535.docx -> 《㊽致章红的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(49).docx -> 《㊾致云伟的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：新建 Microsoft Word 文档 (50).docx -> 《㊿致苏涛的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档51.docx -> 《51致潘斌的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：00000052.docx -> 《52致葛飞的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-53-修订版.docx -> 《53致奚艳的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00054.docx -> 《54致范雪的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：未命名55.docx -> 《55致彭洁的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：00000056.docx -> 《56致郎磊的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：新建 Microsoft Word 文档 (57).docx -> 《57致鲁超的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-58-修订版.docx -> 《58致韦波的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档59.docx -> 《59致昌敏的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(60).docx -> 《60致马秀兰的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00061.docx -> 《61致苗梅的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：新建 Microsoft Word 文档 (62).docx -> 《62致凤慧的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：00000063.docx -> 《63致花洋的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：未命名64.docx -> 《64致方辉的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：00000065.docx -> 《65致俞凯的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：未命名66.docx -> 《66致任丽的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：00000067.docx -> 《67致袁燕的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(68).docx -> 《68致柳红的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：00000069.docx -> 《69致鲍伟的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档70.docx -> 《70致史涛的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00071.docx -> 《71致唐斌的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(72).docx -> 《72致费飞的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：temp_73_final.docx -> 《73致廉艳的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00074.docx -> 《74致岑雪的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：00000075.docx -> 《75致薛洁的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00076.docx -> 《76致雷磊的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(77).docx -> 《77致贺超的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(78).docx -> 《78致倪波的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20235690155715.docx -> 《79致汤敏的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00080.docx -> 《80致滕秀兰的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档81.docx -> 《81致殷梅的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-82-修订版.docx -> 《82致罗慧的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0083.docx -> 《83致毕洋的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：temp_84_final.docx -> 《84致郝辉的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：新建 Microsoft Word 文档 (85).docx -> 《85致邬凯的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档86.docx -> 《86致安丽的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：未命名87.docx -> 《87致常燕的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0088.docx -> 《88致乐红的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：新建 Microsoft Word 文档 (89).docx -> 《89致于伟的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：新建 Microsoft Word 文档 (90).docx -> 《90致时涛的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：00000091.docx -> 《91致傅斌的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0092.docx -> 《92致皮飞的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：新建 Microsoft Word 文档 (93).docx -> 《93致卞艳的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20221270008131.docx -> 《94致齐雪的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0095.docx -> 《95致康洁的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0096.docx -> 《96致伍磊的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-97-修订版.docx -> 《97致余超的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(98).docx -> 《98致元波的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(99).docx -> 《99致卜敏的缴费通知书》.docx
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 本次成功 99 个，失败 0 个，撤销记录：<项目根目录>\logs\undo_20261013_121512.json
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 开始撤销，共 99 条，来源 <项目根目录>\logs\undo_20261013_121512.json
+2026-10-13 12:15:12 [INFO] BatchDocRenamer.renamer: 撤销完成：成功 99，失败 0
+2026-10-13 12:19:58 [INFO] BatchDocRenamer: ============================================================
+2026-10-13 12:19:58 [INFO] BatchDocRenamer: 批量文档重命名助手 v1.0.3 启动
+2026-10-13 12:19:58 [INFO] BatchDocRenamer: 日志文件: <项目根目录>\logs\app_20261013.log
+2026-10-13 12:19:59 [INFO] BatchDocRenamer.roster: 名单解析：识别姓名列=1（表头=['序号', '姓名', '备注']），数据行=99
+2026-10-13 12:19:59 [INFO] BatchDocRenamer.roster: 名单加载完成，共 99 条
+2026-10-13 12:19:59 [INFO] BatchDocRenamer.scanner: 扫描目录 <项目根目录>\测试数据集_99份：命中 99 个文件（类型=['.doc', '.docm', '.docx', '.dot', '.dotx', '.rtf']，递归=False，排除=1）
+2026-10-13 12:19:59 [INFO] BatchDocRenamer.api: 内容识别：99/99 个文件提取到姓名候选
+2026-10-13 12:19:59 [INFO] BatchDocRenamer.matcher: 姓名匹配完成：已匹配 99 / 未匹配 0 / 名单使用 99
+2026-10-13 12:20:05 [INFO] BatchDocRenamer: ============================================================
+2026-10-13 12:20:05 [INFO] BatchDocRenamer: 批量文档重命名助手 v1.0.3 启动
+2026-10-13 12:20:05 [INFO] BatchDocRenamer: 日志文件: <项目根目录>\logs\app_20261013.log
+2026-10-13 12:20:06 [INFO] BatchDocRenamer.roster: 名单解析：识别姓名列=1（表头=['序号', '姓名', '备注']），数据行=99
+2026-10-13 12:20:06 [INFO] BatchDocRenamer.roster: 名单加载完成，共 99 条
+2026-10-13 12:20:06 [INFO] BatchDocRenamer.scanner: 扫描目录 <项目根目录>\测试数据集_99份：命中 99 个文件（类型=['.doc', '.docm', '.docx', '.dot', '.dotx', '.rtf']，递归=False，排除=1）
+2026-10-13 12:20:06 [INFO] BatchDocRenamer.api: 内容识别：99/99 个文件提取到姓名候选
+2026-10-13 12:20:07 [INFO] BatchDocRenamer.matcher: 姓名匹配完成：已匹配 99 / 未匹配 0 / 名单使用 99
+2026-10-13 12:33:01 [INFO] BatchDocRenamer: ============================================================
+2026-10-13 12:33:01 [INFO] BatchDocRenamer: 批量文档重命名助手 v1.0.3 启动
+2026-10-13 12:33:01 [INFO] BatchDocRenamer: 日志文件: <项目根目录>\logs\app_20261013.log
+2026-10-13 12:33:49 [INFO] BatchDocRenamer.ui: 选择文件夹：<项目根目录>/测试数据集_99份
+2026-10-13 12:33:55 [INFO] BatchDocRenamer.roster: 名单解析：识别姓名列=1（表头=['序号', '姓名', '备注']），数据行=99
+2026-10-13 12:33:55 [INFO] BatchDocRenamer.roster: 名单加载完成，共 99 条
+2026-10-13 12:33:55 [INFO] BatchDocRenamer.ui: 导入名单 <项目根目录>/测试数据集_99份/客户名单.xlsx，共 99 条
+2026-10-13 12:33:57 [INFO] BatchDocRenamer.roster: 名单解析：识别姓名列=1（表头=['序号', '姓名', '备注']），数据行=99
+2026-10-13 12:33:57 [INFO] BatchDocRenamer.roster: 名单加载完成，共 99 条
+2026-10-13 12:33:57 [INFO] BatchDocRenamer.scanner: 扫描目录 <项目根目录>\测试数据集_99份：命中 99 个文件（类型=['.csv', '.doc', '.docm', '.docx', '.dot', '.dotx', '.rtf', '.xls', '.xlsb', '.xlsm', '.xlsx']，递归=False，排除=1）
+2026-10-13 12:33:58 [INFO] BatchDocRenamer.matcher: 按顺序补齐 99 个文件
+2026-10-13 12:33:58 [INFO] BatchDocRenamer.matcher: 姓名匹配完成：已匹配 99 / 未匹配 0 / 名单使用 99
+2026-10-13 12:33:58 [INFO] BatchDocRenamer.ui: 预览完成：文件 99 个 | 可执行 99 | 未变 0 | 重名 0 | 已存在 0 | 缺姓名 0 | 名单 99 条（已用 99）
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：00000003.docx -> 01_张三.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：00000017.docx -> 02_李四.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：00000036.docx -> 03_王五.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：00000052.docx -> 04_赵六.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：00000056.docx -> 05_孙七.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：00000063.docx -> 06_周八.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：00000065.docx -> 07_吴九.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：00000067.docx -> 08_郑十.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：00000069.docx -> 09_赵伟.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：00000075.docx -> 10_钱涛.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：00000091.docx -> 11_孙斌.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档7.docx -> 12_李飞.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档14.docx -> 13_周艳.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档23.docx -> 14_吴雪.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档29.docx -> 15_郑洁.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档30.docx -> 16_王磊.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档33.docx -> 17_冯超.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档41.docx -> 18_陈波.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档51.docx -> 19_褚敏.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档59.docx -> 20_卫秀兰.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档70.docx -> 21_蒋梅.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档81.docx -> 22_沈慧.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档86.docx -> 23_韩洋.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00034.docx -> 24_杨辉.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00039.docx -> 25_朱凯.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00043.docx -> 26_秦丽.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00047.docx -> 27_尤燕.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00054.docx -> 28_许红.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00061.docx -> 29_何伟.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00071.docx -> 30_吕涛.docx
+2026-10-13 12:35:25 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00074.docx -> 31_施斌.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00076.docx -> 32_张飞.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00080.docx -> 33_孔艳.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：temp_16_final.docx -> 34_曹雪.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：temp_44_final.docx -> 35_严洁.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：temp_73_final.docx -> 36_华磊.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：temp_84_final.docx -> 37_金超.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-1-修订版.docx -> 38_魏波.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-2-修订版.docx -> 39_陶敏.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-5-修订版.docx -> 40_姜秀兰.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-9-修订版.docx -> 41_戚梅.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-11-修订版.docx -> 42_谢慧.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-15-修订版.docx -> 43_邹洋.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-46-修订版.docx -> 44_喻辉.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-53-修订版.docx -> 45_柏凯.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-58-修订版.docx -> 46_水丽.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-82-修订版.docx -> 47_窦燕.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-97-修订版.docx -> 48_章红.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0004.docx -> 49_云伟.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0008.docx -> 50_苏涛.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0010.docx -> 51_潘斌.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0025.docx -> 52_葛飞.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0038.docx -> 53_奚艳.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0083.docx -> 54_范雪.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0088.docx -> 55_彭洁.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0092.docx -> 56_郎磊.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0095.docx -> 57_鲁超.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0096.docx -> 58_韦波.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20207657779723.docx -> 59_昌敏.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20208624921871.docx -> 60_马秀兰.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20214684855375.docx -> 61_苗梅.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20221270008131.docx -> 62_凤慧.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20227912014613.docx -> 63_花洋.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20227948775535.docx -> 64_方辉.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20235690155715.docx -> 65_俞凯.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20237000389433.docx -> 66_任丽.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20247124969547.docx -> 67_袁燕.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20249447764584.docx -> 68_柳红.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(6).docx -> 69_鲍伟.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(24).docx -> 70_史涛.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(27).docx -> 71_唐斌.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(28).docx -> 72_费飞.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(40).docx -> 73_廉艳.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(49).docx -> 74_岑雪.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(60).docx -> 75_薛洁.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(68).docx -> 76_雷磊.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(72).docx -> 77_贺超.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(77).docx -> 78_倪波.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(78).docx -> 79_汤敏.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(98).docx -> 80_滕秀兰.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(99).docx -> 81_殷梅.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：新建 Microsoft Word 文档 (21).docx -> 82_罗慧.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：新建 Microsoft Word 文档 (32).docx -> 83_毕洋.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：新建 Microsoft Word 文档 (50).docx -> 84_郝辉.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：新建 Microsoft Word 文档 (57).docx -> 85_邬凯.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：新建 Microsoft Word 文档 (62).docx -> 86_安丽.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：新建 Microsoft Word 文档 (85).docx -> 87_常燕.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：新建 Microsoft Word 文档 (89).docx -> 88_乐红.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：新建 Microsoft Word 文档 (90).docx -> 89_于伟.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：新建 Microsoft Word 文档 (93).docx -> 90_时涛.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：未命名13.docx -> 91_傅斌.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：未命名22.docx -> 92_皮飞.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：未命名26.docx -> 93_卞艳.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：未命名35.docx -> 94_齐雪.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：未命名37.docx -> 95_康洁.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：未命名55.docx -> 96_伍磊.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：未命名64.docx -> 97_余超.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：未命名66.docx -> 98_元波.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 重命名成功：未命名87.docx -> 99_卜敏.docx
+2026-10-13 12:35:26 [INFO] BatchDocRenamer.renamer: 本次成功 99 个，失败 0 个，撤销记录：<项目根目录>\logs\undo_20261013_123526.json
+2026-10-13 12:35:28 [INFO] BatchDocRenamer.roster: 名单解析：识别姓名列=1（表头=['序号', '姓名', '备注']），数据行=99
+2026-10-13 12:35:28 [INFO] BatchDocRenamer.roster: 名单加载完成，共 99 条
+2026-10-13 12:35:28 [INFO] BatchDocRenamer.scanner: 扫描目录 <项目根目录>\测试数据集_99份：命中 99 个文件（类型=['.csv', '.doc', '.docm', '.docx', '.dot', '.dotx', '.rtf', '.xls', '.xlsb', '.xlsm', '.xlsx']，递归=False，排除=1）
+2026-10-13 12:35:28 [INFO] BatchDocRenamer.matcher: 姓名匹配完成：已匹配 99 / 未匹配 0 / 名单使用 99
+2026-10-13 12:35:28 [INFO] BatchDocRenamer.ui: 预览完成：文件 99 个 | 可执行 99 | 未变 0 | 重名 0 | 已存在 0 | 缺姓名 0 | 名单 99 条（已用 99）
+2026-10-13 12:39:42 [INFO] BatchDocRenamer: ============================================================
+2026-10-13 12:39:42 [INFO] BatchDocRenamer: 批量文档重命名助手 v1.0.3 启动
+2026-10-13 12:39:42 [INFO] BatchDocRenamer: 日志文件: <项目根目录>\logs\app_20261013.log
+2026-10-13 12:40:06 [INFO] BatchDocRenamer: ============================================================
+2026-10-13 12:40:06 [INFO] BatchDocRenamer: 批量文档重命名助手 v1.0.3 启动
+2026-10-13 12:40:06 [INFO] BatchDocRenamer: 日志文件: <项目根目录>\logs\app_20261013.log
+2026-10-13 12:40:27 [INFO] BatchDocRenamer: ============================================================
+2026-10-13 12:40:27 [INFO] BatchDocRenamer: 批量文档重命名助手 v1.0.3 启动
+2026-10-13 12:40:27 [INFO] BatchDocRenamer: 日志文件: <项目根目录>\logs\app_20261013.log
+2026-10-13 12:40:27 [INFO] BatchDocRenamer.renamer: 开始撤销，共 99 条，来源 <项目根目录>\logs\undo_20261013_123526.json
+2026-10-13 12:40:27 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\01_张三.docx: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: '<项目根目录>\\测试数据集_99份\\01_张三.docx' -> '<项目根目录>\\测试数据集_99份\\00000003.docx'
+2026-10-13 12:40:27 [INFO] BatchDocRenamer.renamer: 撤销完成：成功 98，失败 1
+2026-10-13 12:40:36 [INFO] BatchDocRenamer.ui: 选择文件夹：<项目根目录>/测试数据集_99份
+2026-10-13 12:40:42 [INFO] BatchDocRenamer.roster: 名单解析：识别姓名列=1（表头=['序号', '姓名', '备注']），数据行=99
+2026-10-13 12:40:42 [INFO] BatchDocRenamer.roster: 名单加载完成，共 99 条
+2026-10-13 12:40:42 [INFO] BatchDocRenamer.ui: 导入名单 <项目根目录>/测试数据集_99份/客户名单.xlsx，共 99 条
+2026-10-13 12:40:44 [INFO] BatchDocRenamer.roster: 名单解析：识别姓名列=1（表头=['序号', '姓名', '备注']），数据行=99
+2026-10-13 12:40:44 [INFO] BatchDocRenamer.roster: 名单加载完成，共 99 条
+2026-10-13 12:40:44 [INFO] BatchDocRenamer.scanner: 扫描目录 <项目根目录>\测试数据集_99份：命中 99 个文件（类型=['.csv', '.doc', '.docm', '.docx', '.dot', '.dotx', '.rtf', '.xls', '.xlsb', '.xlsm', '.xlsx']，递归=False，排除=1）
+2026-10-13 12:40:45 [INFO] BatchDocRenamer.matcher: 按顺序补齐 98 个文件
+2026-10-13 12:40:45 [INFO] BatchDocRenamer.matcher: 姓名匹配完成：已匹配 99 / 未匹配 0 / 名单使用 99
+2026-10-13 12:40:45 [INFO] BatchDocRenamer.ui: 预览完成：文件 99 个 | 可执行 98 | 未变 1 | 重名 0 | 已存在 0 | 缺姓名 0 | 名单 99 条（已用 99）
+2026-10-13 12:41:07 [INFO] BatchDocRenamer: ============================================================
+2026-10-13 12:41:07 [INFO] BatchDocRenamer: 批量文档重命名助手 v1.0.4 启动
+2026-10-13 12:41:07 [INFO] BatchDocRenamer: 日志文件: <项目根目录>\logs\app_20261013.log
+2026-10-13 12:41:08 [INFO] BatchDocRenamer.roster: 名单解析：识别姓名列=1（表头=['序号', '姓名', '备注']），数据行=99
+2026-10-13 12:41:08 [INFO] BatchDocRenamer.roster: 名单加载完成，共 99 条
+2026-10-13 12:41:08 [INFO] BatchDocRenamer.scanner: 扫描目录 <项目根目录>\测试数据集_99份：命中 99 个文件（类型=['.doc', '.docm', '.docx', '.dot', '.dotx', '.rtf']，递归=False，排除=1）
+2026-10-13 12:41:08 [INFO] BatchDocRenamer.api: 内容识别：99/99 个文件提取到姓名候选
+2026-10-13 12:41:08 [INFO] BatchDocRenamer.matcher: 姓名匹配完成：已匹配 99 / 未匹配 0 / 名单使用 99
+2026-10-13 12:41:15 [INFO] BatchDocRenamer: ============================================================
+2026-10-13 12:41:15 [INFO] BatchDocRenamer: 批量文档重命名助手 v1.0.4 启动
+2026-10-13 12:41:15 [INFO] BatchDocRenamer: 日志文件: <项目根目录>\logs\app_20261013.log
+2026-10-13 12:41:15 [INFO] BatchDocRenamer.renamer: 开始撤销，共 99 条，来源 <项目根目录>\logs\undo_20261013_123526.json
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\99_卜敏.docx: 文件不存在：<项目根目录>\测试数据集_99份\99_卜敏.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\98_元波.docx: 文件不存在：<项目根目录>\测试数据集_99份\98_元波.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\97_余超.docx: 文件不存在：<项目根目录>\测试数据集_99份\97_余超.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\96_伍磊.docx: 文件不存在：<项目根目录>\测试数据集_99份\96_伍磊.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\95_康洁.docx: 文件不存在：<项目根目录>\测试数据集_99份\95_康洁.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\94_齐雪.docx: 文件不存在：<项目根目录>\测试数据集_99份\94_齐雪.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\93_卞艳.docx: 文件不存在：<项目根目录>\测试数据集_99份\93_卞艳.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\92_皮飞.docx: 文件不存在：<项目根目录>\测试数据集_99份\92_皮飞.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\91_傅斌.docx: 文件不存在：<项目根目录>\测试数据集_99份\91_傅斌.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\90_时涛.docx: 文件不存在：<项目根目录>\测试数据集_99份\90_时涛.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\89_于伟.docx: 文件不存在：<项目根目录>\测试数据集_99份\89_于伟.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\88_乐红.docx: 文件不存在：<项目根目录>\测试数据集_99份\88_乐红.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\87_常燕.docx: 文件不存在：<项目根目录>\测试数据集_99份\87_常燕.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\86_安丽.docx: 文件不存在：<项目根目录>\测试数据集_99份\86_安丽.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\85_邬凯.docx: 文件不存在：<项目根目录>\测试数据集_99份\85_邬凯.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\84_郝辉.docx: 文件不存在：<项目根目录>\测试数据集_99份\84_郝辉.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\83_毕洋.docx: 文件不存在：<项目根目录>\测试数据集_99份\83_毕洋.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\82_罗慧.docx: 文件不存在：<项目根目录>\测试数据集_99份\82_罗慧.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\81_殷梅.docx: 文件不存在：<项目根目录>\测试数据集_99份\81_殷梅.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\80_滕秀兰.docx: 文件不存在：<项目根目录>\测试数据集_99份\80_滕秀兰.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\79_汤敏.docx: 文件不存在：<项目根目录>\测试数据集_99份\79_汤敏.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\78_倪波.docx: 文件不存在：<项目根目录>\测试数据集_99份\78_倪波.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\77_贺超.docx: 文件不存在：<项目根目录>\测试数据集_99份\77_贺超.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\76_雷磊.docx: 文件不存在：<项目根目录>\测试数据集_99份\76_雷磊.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\75_薛洁.docx: 文件不存在：<项目根目录>\测试数据集_99份\75_薛洁.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\74_岑雪.docx: 文件不存在：<项目根目录>\测试数据集_99份\74_岑雪.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\73_廉艳.docx: 文件不存在：<项目根目录>\测试数据集_99份\73_廉艳.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\72_费飞.docx: 文件不存在：<项目根目录>\测试数据集_99份\72_费飞.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\71_唐斌.docx: 文件不存在：<项目根目录>\测试数据集_99份\71_唐斌.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\70_史涛.docx: 文件不存在：<项目根目录>\测试数据集_99份\70_史涛.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\69_鲍伟.docx: 文件不存在：<项目根目录>\测试数据集_99份\69_鲍伟.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\68_柳红.docx: 文件不存在：<项目根目录>\测试数据集_99份\68_柳红.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\67_袁燕.docx: 文件不存在：<项目根目录>\测试数据集_99份\67_袁燕.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\66_任丽.docx: 文件不存在：<项目根目录>\测试数据集_99份\66_任丽.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\65_俞凯.docx: 文件不存在：<项目根目录>\测试数据集_99份\65_俞凯.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\64_方辉.docx: 文件不存在：<项目根目录>\测试数据集_99份\64_方辉.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\63_花洋.docx: 文件不存在：<项目根目录>\测试数据集_99份\63_花洋.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\62_凤慧.docx: 文件不存在：<项目根目录>\测试数据集_99份\62_凤慧.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\61_苗梅.docx: 文件不存在：<项目根目录>\测试数据集_99份\61_苗梅.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\60_马秀兰.docx: 文件不存在：<项目根目录>\测试数据集_99份\60_马秀兰.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\59_昌敏.docx: 文件不存在：<项目根目录>\测试数据集_99份\59_昌敏.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\58_韦波.docx: 文件不存在：<项目根目录>\测试数据集_99份\58_韦波.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\57_鲁超.docx: 文件不存在：<项目根目录>\测试数据集_99份\57_鲁超.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\56_郎磊.docx: 文件不存在：<项目根目录>\测试数据集_99份\56_郎磊.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\55_彭洁.docx: 文件不存在：<项目根目录>\测试数据集_99份\55_彭洁.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\54_范雪.docx: 文件不存在：<项目根目录>\测试数据集_99份\54_范雪.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\53_奚艳.docx: 文件不存在：<项目根目录>\测试数据集_99份\53_奚艳.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\52_葛飞.docx: 文件不存在：<项目根目录>\测试数据集_99份\52_葛飞.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\51_潘斌.docx: 文件不存在：<项目根目录>\测试数据集_99份\51_潘斌.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\50_苏涛.docx: 文件不存在：<项目根目录>\测试数据集_99份\50_苏涛.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\49_云伟.docx: 文件不存在：<项目根目录>\测试数据集_99份\49_云伟.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\48_章红.docx: 文件不存在：<项目根目录>\测试数据集_99份\48_章红.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\47_窦燕.docx: 文件不存在：<项目根目录>\测试数据集_99份\47_窦燕.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\46_水丽.docx: 文件不存在：<项目根目录>\测试数据集_99份\46_水丽.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\45_柏凯.docx: 文件不存在：<项目根目录>\测试数据集_99份\45_柏凯.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\44_喻辉.docx: 文件不存在：<项目根目录>\测试数据集_99份\44_喻辉.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\43_邹洋.docx: 文件不存在：<项目根目录>\测试数据集_99份\43_邹洋.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\42_谢慧.docx: 文件不存在：<项目根目录>\测试数据集_99份\42_谢慧.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\41_戚梅.docx: 文件不存在：<项目根目录>\测试数据集_99份\41_戚梅.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\40_姜秀兰.docx: 文件不存在：<项目根目录>\测试数据集_99份\40_姜秀兰.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\39_陶敏.docx: 文件不存在：<项目根目录>\测试数据集_99份\39_陶敏.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\38_魏波.docx: 文件不存在：<项目根目录>\测试数据集_99份\38_魏波.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\37_金超.docx: 文件不存在：<项目根目录>\测试数据集_99份\37_金超.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\36_华磊.docx: 文件不存在：<项目根目录>\测试数据集_99份\36_华磊.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\35_严洁.docx: 文件不存在：<项目根目录>\测试数据集_99份\35_严洁.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\34_曹雪.docx: 文件不存在：<项目根目录>\测试数据集_99份\34_曹雪.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\33_孔艳.docx: 文件不存在：<项目根目录>\测试数据集_99份\33_孔艳.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\32_张飞.docx: 文件不存在：<项目根目录>\测试数据集_99份\32_张飞.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\31_施斌.docx: 文件不存在：<项目根目录>\测试数据集_99份\31_施斌.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\30_吕涛.docx: 文件不存在：<项目根目录>\测试数据集_99份\30_吕涛.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\29_何伟.docx: 文件不存在：<项目根目录>\测试数据集_99份\29_何伟.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\28_许红.docx: 文件不存在：<项目根目录>\测试数据集_99份\28_许红.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\27_尤燕.docx: 文件不存在：<项目根目录>\测试数据集_99份\27_尤燕.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\26_秦丽.docx: 文件不存在：<项目根目录>\测试数据集_99份\26_秦丽.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\25_朱凯.docx: 文件不存在：<项目根目录>\测试数据集_99份\25_朱凯.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\24_杨辉.docx: 文件不存在：<项目根目录>\测试数据集_99份\24_杨辉.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\23_韩洋.docx: 文件不存在：<项目根目录>\测试数据集_99份\23_韩洋.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\22_沈慧.docx: 文件不存在：<项目根目录>\测试数据集_99份\22_沈慧.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\21_蒋梅.docx: 文件不存在：<项目根目录>\测试数据集_99份\21_蒋梅.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\20_卫秀兰.docx: 文件不存在：<项目根目录>\测试数据集_99份\20_卫秀兰.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\19_褚敏.docx: 文件不存在：<项目根目录>\测试数据集_99份\19_褚敏.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\18_陈波.docx: 文件不存在：<项目根目录>\测试数据集_99份\18_陈波.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\17_冯超.docx: 文件不存在：<项目根目录>\测试数据集_99份\17_冯超.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\16_王磊.docx: 文件不存在：<项目根目录>\测试数据集_99份\16_王磊.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\15_郑洁.docx: 文件不存在：<项目根目录>\测试数据集_99份\15_郑洁.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\14_吴雪.docx: 文件不存在：<项目根目录>\测试数据集_99份\14_吴雪.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\13_周艳.docx: 文件不存在：<项目根目录>\测试数据集_99份\13_周艳.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\12_李飞.docx: 文件不存在：<项目根目录>\测试数据集_99份\12_李飞.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\11_孙斌.docx: 文件不存在：<项目根目录>\测试数据集_99份\11_孙斌.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\10_钱涛.docx: 文件不存在：<项目根目录>\测试数据集_99份\10_钱涛.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\09_赵伟.docx: 文件不存在：<项目根目录>\测试数据集_99份\09_赵伟.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\08_郑十.docx: 文件不存在：<项目根目录>\测试数据集_99份\08_郑十.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\07_吴九.docx: 文件不存在：<项目根目录>\测试数据集_99份\07_吴九.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\06_周八.docx: 文件不存在：<项目根目录>\测试数据集_99份\06_周八.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\05_孙七.docx: 文件不存在：<项目根目录>\测试数据集_99份\05_孙七.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\04_赵六.docx: 文件不存在：<项目根目录>\测试数据集_99份\04_赵六.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\03_王五.docx: 文件不存在：<项目根目录>\测试数据集_99份\03_王五.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\02_李四.docx: 文件不存在：<项目根目录>\测试数据集_99份\02_李四.docx
+2026-10-13 12:41:15 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\01_张三.docx: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: '<项目根目录>\\测试数据集_99份\\01_张三.docx' -> '<项目根目录>\\测试数据集_99份\\00000003.docx'
+2026-10-13 12:41:15 [INFO] BatchDocRenamer.renamer: 撤销完成：成功 0，失败 99
+2026-10-13 12:41:26 [INFO] BatchDocRenamer.roster: 名单解析：识别姓名列=1（表头=['序号', '姓名', '备注']），数据行=99
+2026-10-13 12:41:26 [INFO] BatchDocRenamer.roster: 名单加载完成，共 99 条
+2026-10-13 12:41:26 [INFO] BatchDocRenamer.scanner: 扫描目录 <项目根目录>\测试数据集_99份：命中 99 个文件（类型=全部，递归=False，排除=1）
+2026-10-13 12:41:26 [INFO] BatchDocRenamer.ui: 内容识别：99/99 个文件提取到姓名候选
+2026-10-13 12:41:27 [INFO] BatchDocRenamer.matcher: 按顺序补齐 1 个文件
+2026-10-13 12:41:27 [INFO] BatchDocRenamer.matcher: 姓名匹配完成：已匹配 99 / 未匹配 0 / 名单使用 99
+2026-10-13 12:41:27 [INFO] BatchDocRenamer.ui: 预览完成：文件 99 个 | 可执行 99 | 未变 0 | 重名 0 | 已存在 0 | 缺姓名 0 | 名单 99 条（已用 99）
+2026-10-13 12:41:33 [INFO] BatchDocRenamer.renamer: 开始撤销，共 99 条，来源 <项目根目录>\logs\undo_20261013_123526.json
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\99_卜敏.docx: 文件不存在：<项目根目录>\测试数据集_99份\99_卜敏.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\98_元波.docx: 文件不存在：<项目根目录>\测试数据集_99份\98_元波.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\97_余超.docx: 文件不存在：<项目根目录>\测试数据集_99份\97_余超.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\96_伍磊.docx: 文件不存在：<项目根目录>\测试数据集_99份\96_伍磊.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\95_康洁.docx: 文件不存在：<项目根目录>\测试数据集_99份\95_康洁.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\94_齐雪.docx: 文件不存在：<项目根目录>\测试数据集_99份\94_齐雪.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\93_卞艳.docx: 文件不存在：<项目根目录>\测试数据集_99份\93_卞艳.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\92_皮飞.docx: 文件不存在：<项目根目录>\测试数据集_99份\92_皮飞.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\91_傅斌.docx: 文件不存在：<项目根目录>\测试数据集_99份\91_傅斌.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\90_时涛.docx: 文件不存在：<项目根目录>\测试数据集_99份\90_时涛.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\89_于伟.docx: 文件不存在：<项目根目录>\测试数据集_99份\89_于伟.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\88_乐红.docx: 文件不存在：<项目根目录>\测试数据集_99份\88_乐红.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\87_常燕.docx: 文件不存在：<项目根目录>\测试数据集_99份\87_常燕.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\86_安丽.docx: 文件不存在：<项目根目录>\测试数据集_99份\86_安丽.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\85_邬凯.docx: 文件不存在：<项目根目录>\测试数据集_99份\85_邬凯.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\84_郝辉.docx: 文件不存在：<项目根目录>\测试数据集_99份\84_郝辉.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\83_毕洋.docx: 文件不存在：<项目根目录>\测试数据集_99份\83_毕洋.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\82_罗慧.docx: 文件不存在：<项目根目录>\测试数据集_99份\82_罗慧.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\81_殷梅.docx: 文件不存在：<项目根目录>\测试数据集_99份\81_殷梅.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\80_滕秀兰.docx: 文件不存在：<项目根目录>\测试数据集_99份\80_滕秀兰.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\79_汤敏.docx: 文件不存在：<项目根目录>\测试数据集_99份\79_汤敏.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\78_倪波.docx: 文件不存在：<项目根目录>\测试数据集_99份\78_倪波.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\77_贺超.docx: 文件不存在：<项目根目录>\测试数据集_99份\77_贺超.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\76_雷磊.docx: 文件不存在：<项目根目录>\测试数据集_99份\76_雷磊.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\75_薛洁.docx: 文件不存在：<项目根目录>\测试数据集_99份\75_薛洁.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\74_岑雪.docx: 文件不存在：<项目根目录>\测试数据集_99份\74_岑雪.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\73_廉艳.docx: 文件不存在：<项目根目录>\测试数据集_99份\73_廉艳.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\72_费飞.docx: 文件不存在：<项目根目录>\测试数据集_99份\72_费飞.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\71_唐斌.docx: 文件不存在：<项目根目录>\测试数据集_99份\71_唐斌.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\70_史涛.docx: 文件不存在：<项目根目录>\测试数据集_99份\70_史涛.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\69_鲍伟.docx: 文件不存在：<项目根目录>\测试数据集_99份\69_鲍伟.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\68_柳红.docx: 文件不存在：<项目根目录>\测试数据集_99份\68_柳红.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\67_袁燕.docx: 文件不存在：<项目根目录>\测试数据集_99份\67_袁燕.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\66_任丽.docx: 文件不存在：<项目根目录>\测试数据集_99份\66_任丽.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\65_俞凯.docx: 文件不存在：<项目根目录>\测试数据集_99份\65_俞凯.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\64_方辉.docx: 文件不存在：<项目根目录>\测试数据集_99份\64_方辉.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\63_花洋.docx: 文件不存在：<项目根目录>\测试数据集_99份\63_花洋.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\62_凤慧.docx: 文件不存在：<项目根目录>\测试数据集_99份\62_凤慧.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\61_苗梅.docx: 文件不存在：<项目根目录>\测试数据集_99份\61_苗梅.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\60_马秀兰.docx: 文件不存在：<项目根目录>\测试数据集_99份\60_马秀兰.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\59_昌敏.docx: 文件不存在：<项目根目录>\测试数据集_99份\59_昌敏.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\58_韦波.docx: 文件不存在：<项目根目录>\测试数据集_99份\58_韦波.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\57_鲁超.docx: 文件不存在：<项目根目录>\测试数据集_99份\57_鲁超.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\56_郎磊.docx: 文件不存在：<项目根目录>\测试数据集_99份\56_郎磊.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\55_彭洁.docx: 文件不存在：<项目根目录>\测试数据集_99份\55_彭洁.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\54_范雪.docx: 文件不存在：<项目根目录>\测试数据集_99份\54_范雪.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\53_奚艳.docx: 文件不存在：<项目根目录>\测试数据集_99份\53_奚艳.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\52_葛飞.docx: 文件不存在：<项目根目录>\测试数据集_99份\52_葛飞.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\51_潘斌.docx: 文件不存在：<项目根目录>\测试数据集_99份\51_潘斌.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\50_苏涛.docx: 文件不存在：<项目根目录>\测试数据集_99份\50_苏涛.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\49_云伟.docx: 文件不存在：<项目根目录>\测试数据集_99份\49_云伟.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\48_章红.docx: 文件不存在：<项目根目录>\测试数据集_99份\48_章红.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\47_窦燕.docx: 文件不存在：<项目根目录>\测试数据集_99份\47_窦燕.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\46_水丽.docx: 文件不存在：<项目根目录>\测试数据集_99份\46_水丽.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\45_柏凯.docx: 文件不存在：<项目根目录>\测试数据集_99份\45_柏凯.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\44_喻辉.docx: 文件不存在：<项目根目录>\测试数据集_99份\44_喻辉.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\43_邹洋.docx: 文件不存在：<项目根目录>\测试数据集_99份\43_邹洋.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\42_谢慧.docx: 文件不存在：<项目根目录>\测试数据集_99份\42_谢慧.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\41_戚梅.docx: 文件不存在：<项目根目录>\测试数据集_99份\41_戚梅.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\40_姜秀兰.docx: 文件不存在：<项目根目录>\测试数据集_99份\40_姜秀兰.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\39_陶敏.docx: 文件不存在：<项目根目录>\测试数据集_99份\39_陶敏.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\38_魏波.docx: 文件不存在：<项目根目录>\测试数据集_99份\38_魏波.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\37_金超.docx: 文件不存在：<项目根目录>\测试数据集_99份\37_金超.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\36_华磊.docx: 文件不存在：<项目根目录>\测试数据集_99份\36_华磊.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\35_严洁.docx: 文件不存在：<项目根目录>\测试数据集_99份\35_严洁.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\34_曹雪.docx: 文件不存在：<项目根目录>\测试数据集_99份\34_曹雪.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\33_孔艳.docx: 文件不存在：<项目根目录>\测试数据集_99份\33_孔艳.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\32_张飞.docx: 文件不存在：<项目根目录>\测试数据集_99份\32_张飞.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\31_施斌.docx: 文件不存在：<项目根目录>\测试数据集_99份\31_施斌.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\30_吕涛.docx: 文件不存在：<项目根目录>\测试数据集_99份\30_吕涛.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\29_何伟.docx: 文件不存在：<项目根目录>\测试数据集_99份\29_何伟.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\28_许红.docx: 文件不存在：<项目根目录>\测试数据集_99份\28_许红.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\27_尤燕.docx: 文件不存在：<项目根目录>\测试数据集_99份\27_尤燕.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\26_秦丽.docx: 文件不存在：<项目根目录>\测试数据集_99份\26_秦丽.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\25_朱凯.docx: 文件不存在：<项目根目录>\测试数据集_99份\25_朱凯.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\24_杨辉.docx: 文件不存在：<项目根目录>\测试数据集_99份\24_杨辉.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\23_韩洋.docx: 文件不存在：<项目根目录>\测试数据集_99份\23_韩洋.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\22_沈慧.docx: 文件不存在：<项目根目录>\测试数据集_99份\22_沈慧.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\21_蒋梅.docx: 文件不存在：<项目根目录>\测试数据集_99份\21_蒋梅.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\20_卫秀兰.docx: 文件不存在：<项目根目录>\测试数据集_99份\20_卫秀兰.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\19_褚敏.docx: 文件不存在：<项目根目录>\测试数据集_99份\19_褚敏.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\18_陈波.docx: 文件不存在：<项目根目录>\测试数据集_99份\18_陈波.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\17_冯超.docx: 文件不存在：<项目根目录>\测试数据集_99份\17_冯超.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\16_王磊.docx: 文件不存在：<项目根目录>\测试数据集_99份\16_王磊.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\15_郑洁.docx: 文件不存在：<项目根目录>\测试数据集_99份\15_郑洁.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\14_吴雪.docx: 文件不存在：<项目根目录>\测试数据集_99份\14_吴雪.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\13_周艳.docx: 文件不存在：<项目根目录>\测试数据集_99份\13_周艳.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\12_李飞.docx: 文件不存在：<项目根目录>\测试数据集_99份\12_李飞.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\11_孙斌.docx: 文件不存在：<项目根目录>\测试数据集_99份\11_孙斌.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\10_钱涛.docx: 文件不存在：<项目根目录>\测试数据集_99份\10_钱涛.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\09_赵伟.docx: 文件不存在：<项目根目录>\测试数据集_99份\09_赵伟.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\08_郑十.docx: 文件不存在：<项目根目录>\测试数据集_99份\08_郑十.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\07_吴九.docx: 文件不存在：<项目根目录>\测试数据集_99份\07_吴九.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\06_周八.docx: 文件不存在：<项目根目录>\测试数据集_99份\06_周八.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\05_孙七.docx: 文件不存在：<项目根目录>\测试数据集_99份\05_孙七.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\04_赵六.docx: 文件不存在：<项目根目录>\测试数据集_99份\04_赵六.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\03_王五.docx: 文件不存在：<项目根目录>\测试数据集_99份\03_王五.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\02_李四.docx: 文件不存在：<项目根目录>\测试数据集_99份\02_李四.docx
+2026-10-13 12:41:33 [ERROR] BatchDocRenamer.renamer: 撤销失败 <项目根目录>\测试数据集_99份\01_张三.docx: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: '<项目根目录>\\测试数据集_99份\\01_张三.docx' -> '<项目根目录>\\测试数据集_99份\\00000003.docx'
+2026-10-13 12:41:33 [INFO] BatchDocRenamer.renamer: 撤销完成：成功 0，失败 99
+2026-10-13 12:41:36 [INFO] BatchDocRenamer.roster: 名单解析：识别姓名列=1（表头=['序号', '姓名', '备注']），数据行=99
+2026-10-13 12:41:36 [INFO] BatchDocRenamer.roster: 名单加载完成，共 99 条
+2026-10-13 12:41:36 [INFO] BatchDocRenamer.scanner: 扫描目录 <项目根目录>\测试数据集_99份：命中 99 个文件（类型=全部，递归=False，排除=1）
+2026-10-13 12:41:36 [INFO] BatchDocRenamer.ui: 内容识别：99/99 个文件提取到姓名候选
+2026-10-13 12:41:36 [INFO] BatchDocRenamer.matcher: 按顺序补齐 1 个文件
+2026-10-13 12:41:36 [INFO] BatchDocRenamer.matcher: 姓名匹配完成：已匹配 99 / 未匹配 0 / 名单使用 99
+2026-10-13 12:41:36 [INFO] BatchDocRenamer.ui: 预览完成：文件 99 个 | 可执行 99 | 未变 0 | 重名 0 | 已存在 0 | 缺姓名 0 | 名单 99 条（已用 99）
+2026-10-13 12:42:04 [ERROR] BatchDocRenamer.renamer: 预备改名失败 <项目根目录>\测试数据集_99份\01_张三.docx: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: '<项目根目录>\\测试数据集_99份\\01_张三.docx' -> '<项目根目录>\\测试数据集_99份\\.__renaming_tmp_24206_0.docx'
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-2-修订版.docx -> 003李四.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-1-修订版.docx -> 004王五.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0004.docx -> 005赵六.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-5-修订版.docx -> 006孙七.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(6).docx -> 007周八.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档7.docx -> 008吴九.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0008.docx -> 009郑十.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-9-修订版.docx -> 010赵伟.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0010.docx -> 011钱涛.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-11-修订版.docx -> 012孙斌.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20249447764584.docx -> 013李飞.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：未命名13.docx -> 014周艳.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档14.docx -> 015吴雪.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-15-修订版.docx -> 016郑洁.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：temp_16_final.docx -> 017王磊.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：00000017.docx -> 018冯超.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20237000389433.docx -> 019陈波.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20227912014613.docx -> 020褚敏.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20214684855375.docx -> 021卫秀兰.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：新建 Microsoft Word 文档 (21).docx -> 022蒋梅.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：未命名22.docx -> 023沈慧.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档23.docx -> 024韩洋.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(24).docx -> 025杨辉.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0025.docx -> 026朱凯.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：未命名26.docx -> 027秦丽.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(27).docx -> 028尤燕.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(28).docx -> 029许红.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档29.docx -> 030何伟.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档30.docx -> 031吕涛.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20208624921871.docx -> 032施斌.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：新建 Microsoft Word 文档 (32).docx -> 033张飞.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档33.docx -> 034孔艳.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00034.docx -> 035曹雪.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：未命名35.docx -> 036严洁.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：00000036.docx -> 037华磊.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：未命名37.docx -> 038金超.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0038.docx -> 039魏波.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00039.docx -> 040陶敏.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(40).docx -> 041姜秀兰.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档41.docx -> 042戚梅.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20207657779723.docx -> 043谢慧.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00043.docx -> 044邹洋.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：temp_44_final.docx -> 045喻辉.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20247124969547.docx -> 046柏凯.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-46-修订版.docx -> 047水丽.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00047.docx -> 048窦燕.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20227948775535.docx -> 049章红.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(49).docx -> 050云伟.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：新建 Microsoft Word 文档 (50).docx -> 051苏涛.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档51.docx -> 052潘斌.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：00000052.docx -> 053葛飞.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-53-修订版.docx -> 054奚艳.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00054.docx -> 055范雪.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：未命名55.docx -> 056彭洁.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：00000056.docx -> 057郎磊.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：新建 Microsoft Word 文档 (57).docx -> 058鲁超.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-58-修订版.docx -> 059韦波.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档59.docx -> 060昌敏.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(60).docx -> 061马秀兰.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00061.docx -> 062苗梅.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：新建 Microsoft Word 文档 (62).docx -> 063凤慧.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：00000063.docx -> 064花洋.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：未命名64.docx -> 065方辉.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：00000065.docx -> 066俞凯.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：未命名66.docx -> 067任丽.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：00000067.docx -> 068袁燕.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(68).docx -> 069柳红.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：00000069.docx -> 070鲍伟.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档70.docx -> 071史涛.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00071.docx -> 072唐斌.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(72).docx -> 073费飞.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：temp_73_final.docx -> 074廉艳.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00074.docx -> 075岑雪.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：00000075.docx -> 076薛洁.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00076.docx -> 077雷磊.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(77).docx -> 078贺超.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(78).docx -> 079倪波.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20235690155715.docx -> 080汤敏.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：IMG_00080.docx -> 081滕秀兰.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档81.docx -> 082殷梅.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-82-修订版.docx -> 083罗慧.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0083.docx -> 084毕洋.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：temp_84_final.docx -> 085郝辉.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：新建 Microsoft Word 文档 (85).docx -> 086邬凯.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：Copy of 文档86.docx -> 087安丽.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：未命名87.docx -> 088常燕.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0088.docx -> 089乐红.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：新建 Microsoft Word 文档 (89).docx -> 090于伟.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：新建 Microsoft Word 文档 (90).docx -> 091时涛.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：00000091.docx -> 092傅斌.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0092.docx -> 093皮飞.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：新建 Microsoft Word 文档 (93).docx -> 094卞艳.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描全能王 20221270008131.docx -> 095齐雪.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0095.docx -> 096康洁.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：扫描件_0096.docx -> 097伍磊.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：工作文档-97-修订版.docx -> 098余超.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(98).docx -> 099元波.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 重命名成功：文档(99).docx -> 100卜敏.docx
+2026-10-13 12:42:04 [INFO] BatchDocRenamer.renamer: 本次成功 98 个，失败 1 个，撤销记录：<项目根目录>\logs\undo_20261013_124204.json
+2026-10-13 12:42:07 [INFO] BatchDocRenamer.roster: 名单解析：识别姓名列=1（表头=['序号', '姓名', '备注']），数据行=99
+2026-10-13 12:42:07 [INFO] BatchDocRenamer.roster: 名单加载完成，共 99 条
+2026-10-13 12:42:07 [INFO] BatchDocRenamer.scanner: 扫描目录 <项目根目录>\测试数据集_99份：命中 99 个文件（类型=全部，递归=False，排除=1）
+2026-10-13 12:42:07 [INFO] BatchDocRenamer.ui: 内容识别：99/99 个文件提取到姓名候选
+2026-10-13 12:42:07 [INFO] BatchDocRenamer.matcher: 姓名匹配完成：已匹配 99 / 未匹配 0 / 名单使用 99
+2026-10-13 12:42:07 [INFO] BatchDocRenamer.ui: 预览完成：文件 99 个 | 可执行 1 | 未变 98 | 重名 0 | 已存在 0 | 缺姓名 0 | 名单 99 条（已用 99）
+2026-10-13 12:42:10 [INFO] BatchDocRenamer: ============================================================
+2026-10-13 12:42:10 [INFO] BatchDocRenamer: 批量文档重命名助手 v1.0.4 启动
+2026-10-13 12:42:10 [INFO] BatchDocRenamer: 日志文件: <项目根目录>\logs\app_20261013.log
+2026-10-13 12:51:15 [INFO] BatchDocRenamer: ============================================================
+2026-10-13 12:51:15 [INFO] BatchDocRenamer: 批量文档重命名助手 v1.1.0 启动
+2026-10-13 12:51:15 [INFO] BatchDocRenamer: 日志文件: <项目根目录>\logs\app_20261013.log
+2026-10-13 12:51:21 [INFO] BatchDocRenamer: ============================================================
+2026-10-13 12:51:21 [INFO] BatchDocRenamer: 批量文档重命名助手 v1.1.0 启动
+2026-10-13 12:51:21 [INFO] BatchDocRenamer: 日志文件: <项目根目录>\logs\app_20261013.log
+2026-10-13 13:06:14 [INFO] BatchDocRenamer: ============================================================
+2026-10-13 13:06:14 [INFO] BatchDocRenamer: 批量文档重命名助手 v1.1.0 启动
+2026-10-13 13:06:14 [INFO] BatchDocRenamer: 日志文件: <项目根目录>\logs\app_20261013.log
+2026-10-13 13:41:55 [INFO] BatchDocRenamer: ============================================================
+2026-10-13 13:41:55 [INFO] BatchDocRenamer: 批量文档重命名助手 v1.1.1 启动
+2026-10-13 13:41:55 [INFO] BatchDocRenamer: 日志文件: <项目根目录>\logs\app_20261013.log

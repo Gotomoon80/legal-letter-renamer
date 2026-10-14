@@ -1,0 +1,23 @@
+# ---- Python 虚拟环境与缓存 ----
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ---- PyInstaller 打包中间产物 ----
+build/
+*.spec
+
+# ---- 运行时垃圾 ----
+debug.log
+
+# ---- 编辑器 ----
+.vscode/
+.idea/
+
+# ---- 系统 ----
+Thumbs.db
+desktop.ini
+.DS_Store

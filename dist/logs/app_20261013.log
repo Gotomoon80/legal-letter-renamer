@@ -1,0 +1,125 @@
+2026-10-13 13:43:25 [INFO] BatchDocRenamer: ============================================================
+2026-10-13 13:43:25 [INFO] BatchDocRenamer: 批量文档重命名助手 v1.1.1 启动
+2026-10-13 13:43:25 [INFO] BatchDocRenamer: 日志文件: <项目根目录>\dist\logs\app_20261013.log
+2026-10-13 13:43:50 [INFO] BatchDocRenamer.ui: 选择文件夹：<项目根目录>/测试数据集_99份
+2026-10-13 13:44:01 [INFO] BatchDocRenamer.roster: 名单解析：识别姓名列=1（表头=['序号', '姓名', '备注']），数据行=99
+2026-10-13 13:44:01 [INFO] BatchDocRenamer.roster: 名单加载完成，共 99 条
+2026-10-13 13:44:01 [INFO] BatchDocRenamer.ui: 导入名单 <项目根目录>/测试数据集_99份/客户名单.xlsx，共 99 条
+2026-10-13 13:44:03 [INFO] BatchDocRenamer.roster: 名单解析：识别姓名列=1（表头=['序号', '姓名', '备注']），数据行=99
+2026-10-13 13:44:03 [INFO] BatchDocRenamer.roster: 名单加载完成，共 99 条
+2026-10-13 13:44:03 [INFO] BatchDocRenamer.scanner: 扫描目录 <项目根目录>\测试数据集_99份：命中 99 个文件（类型=['.doc', '.docm', '.docx', '.dot', '.dotx', '.rtf']，递归=False，排除=1）
+2026-10-13 13:44:03 [INFO] BatchDocRenamer.ui: 内容识别：99/99 个文件提取到姓名候选
+2026-10-13 13:44:03 [INFO] BatchDocRenamer.matcher: 姓名匹配完成：已匹配 99 / 未匹配 0 / 名单使用 99
+2026-10-13 13:44:03 [INFO] BatchDocRenamer.ui: 预览完成：文件 99 个 | 可执行 99 | 未变 0 | 重名 0 | 已存在 0 | 缺姓名 0 | 名单 99 条（已用 99）
+2026-10-13 13:44:22 [INFO] BatchDocRenamer.roster: 名单解析：识别姓名列=1（表头=['序号', '姓名', '备注']），数据行=99
+2026-10-13 13:44:22 [INFO] BatchDocRenamer.roster: 名单加载完成，共 99 条
+2026-10-13 13:44:22 [INFO] BatchDocRenamer.scanner: 扫描目录 <项目根目录>\测试数据集_99份：命中 99 个文件（类型=['.doc', '.docm', '.docx', '.dot', '.dotx', '.rtf']，递归=False，排除=1）
+2026-10-13 13:44:22 [INFO] BatchDocRenamer.ui: 内容识别：99/99 个文件提取到姓名候选
+2026-10-13 13:44:22 [INFO] BatchDocRenamer.matcher: 姓名匹配完成：已匹配 99 / 未匹配 0 / 名单使用 99
+2026-10-13 13:44:22 [INFO] BatchDocRenamer.ui: 预览完成：文件 99 个 | 可执行 99 | 未变 0 | 重名 0 | 已存在 0 | 缺姓名 0 | 名单 99 条（已用 99）
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：004王五.docx -> 000张三律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：003李四.docx -> 001李四律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：00000003.docx -> 002王五律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：005赵六.docx -> 003赵六律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：006孙七.docx -> 004孙七律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：007周八.docx -> 005周八律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：008吴九.docx -> 006吴九律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：009郑十.docx -> 007郑十律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：010赵伟.docx -> 008赵伟律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：011钱涛.docx -> 009钱涛律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：012孙斌.docx -> 010孙斌律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：013李飞.docx -> 011李飞律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：014周艳.docx -> 012周艳律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：015吴雪.docx -> 013吴雪律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：016郑洁.docx -> 014郑洁律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：017王磊.docx -> 015王磊律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：018冯超.docx -> 016冯超律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：019陈波.docx -> 017陈波律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：020褚敏.docx -> 018褚敏律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：021卫秀兰.docx -> 019卫秀兰律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：022蒋梅.docx -> 020蒋梅律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：023沈慧.docx -> 021沈慧律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：024韩洋.docx -> 022韩洋律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：025杨辉.docx -> 023杨辉律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：026朱凯.docx -> 024朱凯律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：027秦丽.docx -> 025秦丽律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：028尤燕.docx -> 026尤燕律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：029许红.docx -> 027许红律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：030何伟.docx -> 028何伟律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：031吕涛.docx -> 029吕涛律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：032施斌.docx -> 030施斌律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：033张飞.docx -> 031张飞律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：034孔艳.docx -> 032孔艳律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：035曹雪.docx -> 033曹雪律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：036严洁.docx -> 034严洁律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：037华磊.docx -> 035华磊律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：038金超.docx -> 036金超律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：039魏波.docx -> 037魏波律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：040陶敏.docx -> 038陶敏律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：041姜秀兰.docx -> 039姜秀兰律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：042戚梅.docx -> 040戚梅律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：043谢慧.docx -> 041谢慧律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：044邹洋.docx -> 042邹洋律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：045喻辉.docx -> 043喻辉律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：046柏凯.docx -> 044柏凯律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：047水丽.docx -> 045水丽律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：048窦燕.docx -> 046窦燕律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：049章红.docx -> 047章红律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：050云伟.docx -> 048云伟律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：051苏涛.docx -> 049苏涛律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：052潘斌.docx -> 050潘斌律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：053葛飞.docx -> 051葛飞律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：054奚艳.docx -> 052奚艳律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：055范雪.docx -> 053范雪律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：056彭洁.docx -> 054彭洁律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：057郎磊.docx -> 055郎磊律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：058鲁超.docx -> 056鲁超律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：059韦波.docx -> 057韦波律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：060昌敏.docx -> 058昌敏律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：061马秀兰.docx -> 059马秀兰律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：062苗梅.docx -> 060苗梅律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：063凤慧.docx -> 061凤慧律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：064花洋.docx -> 062花洋律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：065方辉.docx -> 063方辉律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：066俞凯.docx -> 064俞凯律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：067任丽.docx -> 065任丽律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：068袁燕.docx -> 066袁燕律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：069柳红.docx -> 067柳红律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：070鲍伟.docx -> 068鲍伟律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：071史涛.docx -> 069史涛律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：072唐斌.docx -> 070唐斌律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：073费飞.docx -> 071费飞律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：074廉艳.docx -> 072廉艳律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：075岑雪.docx -> 073岑雪律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：076薛洁.docx -> 074薛洁律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：077雷磊.docx -> 075雷磊律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：078贺超.docx -> 076贺超律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：079倪波.docx -> 077倪波律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：080汤敏.docx -> 078汤敏律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：081滕秀兰.docx -> 079滕秀兰律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：082殷梅.docx -> 080殷梅律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：083罗慧.docx -> 081罗慧律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：084毕洋.docx -> 082毕洋律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：085郝辉.docx -> 083郝辉律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：086邬凯.docx -> 084邬凯律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：087安丽.docx -> 085安丽律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：088常燕.docx -> 086常燕律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：089乐红.docx -> 087乐红律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：090于伟.docx -> 088于伟律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：091时涛.docx -> 089时涛律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：092傅斌.docx -> 090傅斌律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：093皮飞.docx -> 091皮飞律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：094卞艳.docx -> 092卞艳律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：095齐雪.docx -> 093齐雪律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：096康洁.docx -> 094康洁律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：097伍磊.docx -> 095伍磊律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：098余超.docx -> 096余超律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：099元波.docx -> 097元波律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 重命名成功：100卜敏.docx -> 098卜敏律师函.docx
+2026-10-13 13:44:25 [INFO] BatchDocRenamer.renamer: 本次成功 99 个，失败 0 个，撤销记录：<项目根目录>\dist\logs\undo_20261013_134425.json
+2026-10-13 13:44:27 [INFO] BatchDocRenamer.roster: 名单解析：识别姓名列=1（表头=['序号', '姓名', '备注']），数据行=99
+2026-10-13 13:44:27 [INFO] BatchDocRenamer.roster: 名单加载完成，共 99 条
+2026-10-13 13:44:27 [INFO] BatchDocRenamer.scanner: 扫描目录 <项目根目录>\测试数据集_99份：命中 99 个文件（类型=['.doc', '.docm', '.docx', '.dot', '.dotx', '.rtf']，递归=False，排除=1）
+2026-10-13 13:44:27 [INFO] BatchDocRenamer.ui: 内容识别：99/99 个文件提取到姓名候选
+2026-10-13 13:44:27 [INFO] BatchDocRenamer.matcher: 姓名匹配完成：已匹配 99 / 未匹配 0 / 名单使用 99
+2026-10-13 13:44:27 [INFO] BatchDocRenamer.ui: 预览完成：文件 99 个 | 可执行 0 | 未变 99 | 重名 0 | 已存在 0 | 缺姓名 0 | 名单 99 条（已用 99）
